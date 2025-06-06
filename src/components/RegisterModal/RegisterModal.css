@@ -1,0 +1,24 @@
+.modal__button-content-register {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  position: absolute;
+  bottom: 13px;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  font-family: "Inter", arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+@media screen and (max-width: 519px) {
+  .modal__button-content-register {
+    display: flex;
+    position: absolute;
+    bottom: calc(100% - 450px);
+    left: 0;
+    max-width: 100%;
+  }
+}

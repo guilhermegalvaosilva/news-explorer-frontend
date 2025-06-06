@@ -1,0 +1,158 @@
+.search {
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+  width: 608px;
+  z-index: 0;
+}
+
+.search__title {
+  font-family: "Roboto-slab", arial, sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 64px;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+.search__description {
+  font-family: "Roboto", arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 32px auto 88px auto;
+}
+
+.search__form {
+  margin: 0 auto;
+  width: 608px;
+  display: flex;
+  position: relative;
+}
+
+.search__input {
+  width: 608px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  border: 1px;
+  font-family: "Roboto", arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  height: 64px;
+  padding: 0;
+  padding-left: 24px;
+}
+
+.search__submit-btn {
+  font-family: "Roboto", arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+  position: absolute;
+  left: calc(100% - 168px);
+  width: 168px;
+  height: 64px;
+  border-radius: 100px;
+  border: 1px;
+  color: white;
+  background-color: #2f71e5;
+  box-shadow: 0 5px 15px #0e1a39;
+  cursor: pointer;
+}
+
+.search__submit-btn:hover {
+  background-color: #347eff;
+}
+
+.search__submit-btn:active {
+  background: #2a65cc;
+}
+
+@media screen and (max-width: 1380px) and (min-width: 1101px) {
+  .search__description {
+    margin: 16px auto 48px auto;
+  }
+
+  .search__form {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .search {
+    width: 452px;
+    padding-bottom: 38px;
+  }
+
+  .search__title {
+    font-size: 36px;
+    line-height: 40px;
+    width: 452px;
+    margin-top: 38px;
+  }
+
+  .search__description {
+    width: 452px;
+    margin: 16px auto 48px auto;
+  }
+
+  .search__form {
+    margin: 0 auto;
+    width: 452px;
+    height: 56px;
+  }
+
+  .search__input {
+    width: 448px;
+    height: 56px;
+    padding-left: 24px;
+  }
+
+  .search__submit-btn {
+    left: calc(100% - 160px);
+    width: 160px;
+    height: 56px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .search {
+    width: 100%;
+  }
+  .search__title {
+    font-size: 36px;
+    line-height: 40px;
+    width: 285px;
+    margin-top: 30px;
+  }
+
+  .search__description {
+    width: 285px;
+    margin: 16px auto 48px auto;
+  }
+
+  .search__form {
+    top: 64px;
+    margin: 0 auto;
+    width: 288px;
+    height: 56px;
+  }
+
+  .search__input {
+    width: 288px;
+    height: 56px;
+  }
+
+  .search__submit-btn {
+    width: 288px;
+    height: 56px;
+    left: 0;
+    top: 72px;
+  }
+}
