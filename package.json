@@ -1,9 +1,5 @@
 {
-  "name": "news-explorer-frontend",
-  "homepage": "https://tiagiron.github.io/news-explorer-frontend/",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "homepage": " https://guilhermegalvaosilva.github.io/news-explorer-frontend/",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
