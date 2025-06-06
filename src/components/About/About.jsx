@@ -9,21 +9,27 @@ function About({}) {
         <div className="about__author">
           <h2 className="about__title">About the author</h2>
           <p className="about__description">
-            Tia Giron is a University of Texas at Austin Master's graduate
-            pursuing a career in tech. She has studied technical skills through
-            TripleTen's Software Engineering Program and has received other
-            certificates through SheCodes, EdX, and CourseEra. She has a strong
-            foundation in JavaScript spanning multiple libraries and frameworks
-            such as React, Node, and Express. She also has a strong familiarity
-            with skills such as using GitHub, Object-Oriented Programming,
-            connecting and building APIs, scaffolding a web application from
-            scratch, and using Figma to design and build a site according to
-            industry standards.
+            Hi! My name is Guilherme Galvão. I was born in Santo André, Brazil,
+            and I've been passionate about technology since I was a child. This
+            passion has driven me to explore different areas in tech and
+            continuously seek new opportunities to grow. I currently live in
+            Portugal and have had the opportunity to travel and experience
+            different cultures in countries like England, Spain, the Czech
+            Republic, and Poland. These journeys have expanded my worldview and
+            inspired me to keep learning and evolving. I'm currently studying
+            Web Development at TripleTen, a hands-on and intensive bootcamp
+            where I'm building solid skills in HTML, CSS, JavaScript, React,
+            Node.js, Express, and MongoDB. Through real projects, I’m learning
+            how to create responsive web applications, work with APIs, and build
+            both front-end and back-end functionality. I'm especially interested
+            in continuing to grow in technology, taking more courses and diving
+            deeper into areas like automation and innovation. I'm excited about
+            the future and always open to new challenges and opportunities.
           </p>
           <p className="about__description">
-            Tia loves working with a team, collaborating with clients to build
-            their perfect website, and is constantly learning and developing new
-            skills as the world of tech evolves rapidly.
+            Guilherme enjoys working collaboratively with teams, partnering with
+            clients to bring their ideal websites to life. He's always learning
+            and expanding his skill set as the tech world continues to evolve.
           </p>
         </div>
       </div>
