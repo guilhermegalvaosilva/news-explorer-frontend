@@ -1,5 +1,5 @@
 {
-  "homepage": " https://guilhermegalvaosilva.github.io/news-explorer-frontend/",
+  "homepage": "https://guilhermegalvaosilva.github.io/news-explorer-frontend/",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
