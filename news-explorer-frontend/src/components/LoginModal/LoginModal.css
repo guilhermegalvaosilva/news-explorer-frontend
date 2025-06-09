@@ -1,0 +1,40 @@
+.modal__button-content--login {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  position: absolute;
+  bottom: 13px;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  font-family: "Inter", arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+.modal__button-open-modal {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color: #2f71e5;
+  font-family: "Inter", arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+.modal__button-open-modal:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 519px) {
+  .login-modal__button-content {
+    display: flex;
+    position: absolute;
+    bottom: calc(100% - 360px);
+    left: 0;
+    max-width: 100%;
+  }
+}

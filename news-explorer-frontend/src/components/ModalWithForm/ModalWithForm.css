@@ -1,0 +1,134 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  z-index: 2;
+}
+
+.modal_opened {
+  visibility: visible;
+}
+
+.modal__close {
+  background: transparent url("../../assets/close.svg") center no-repeat;
+  border: none;
+  z-index: 10000;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  transition: opacity linear 0.5s;
+}
+
+.modal__close:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.modal__content {
+  background-color: white;
+  border-radius: 16px;
+  border: none;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 430px;
+}
+
+.modal__content_type_form {
+  padding: 34px 36px 64px;
+}
+
+.modal__title {
+  font-family: "Roboto", arial, sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28.13px;
+  margin: 0 0 22px 0;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal__submit {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 100px;
+  padding: 20px 0;
+  border: none;
+  position: relative;
+  color: white;
+  background-color: #2f71e5;
+  box-shadow: 0 5px 15px #0e1a39;
+  transition: background-color linear 0.5s;
+}
+
+.modal__submit:hover {
+  cursor: pointer;
+  background-color: #347eff;
+}
+
+.modal__submit_disabled {
+  background-color: #e6e8eb;
+  color: #b6bcbf;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 519px) {
+  .modal {
+    /* justify-content: start; */
+    align-items: start;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .modal__close {
+    width: 16px;
+    height: 13px;
+    top: calc(0% - 32px);
+    left: calc(100% - 44px);
+    right: 0;
+  }
+
+  .modal__content {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 56px;
+    height: 100%;
+  }
+
+  .modal__content_type_form {
+    padding: 16px 17px 64px;
+  }
+
+  .modal__title {
+    margin: 0 0 18px 0;
+  }
+
+  .modal__submit {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 100px;
+    padding: 20px 0;
+    border: none;
+    position: relative;
+    color: white;
+    background-color: #2f71e5;
+    box-shadow: 0 5px 15px #0e1a39;
+    transition: background-color linear 0.5s;
+  }
+}

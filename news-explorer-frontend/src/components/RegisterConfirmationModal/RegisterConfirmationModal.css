@@ -1,0 +1,23 @@
+.modal__content_type_confirm {
+  padding: 43px 0 51px 36px;
+}
+
+.confirm-modal__title {
+  font-family: "Roboto", arial, sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28.13px;
+  margin: 0 0 14px 0;
+}
+
+.confirm-modal__button-login {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color: #2f71e5;
+  font-family: "Inter", arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+}

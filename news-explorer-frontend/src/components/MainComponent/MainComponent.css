@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 0;
+  background-image: url("../../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+.search-results-section {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 550px) {
+  .main {
+    height: 475px;
+  }
+}
