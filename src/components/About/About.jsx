@@ -1,5 +1,5 @@
 import "./About.css";
-import author from "../../Mypic.jpeg";
+import author from "../../assets/Mypic.jpeg";
 
 function About({}) {
   return (
