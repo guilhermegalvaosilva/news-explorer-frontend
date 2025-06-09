@@ -26,12 +26,12 @@ function Footer({}) {
         </ul>
         <ul className="footer__icons">
           <li className="footer__icon">
-            <a href="https://github.com/tiagiron" target="_blank">
+            <a href="https://github.com/guilhermegalvaosilva" target="_blank">
               <img className="footer__git" src={github} alt="GitHub logo" />
             </a>
           </li>
           <li className="footer__icon">
-            <a href="https://www.linkedin.com/in/tia-giron-ms/" target="_blank">
+            <a href="in/guilherme-galvão-a43307177" target="_blank">
               <img
                 className="footer__linkedin"
                 src={linkedin}
