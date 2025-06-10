@@ -1,6 +1,6 @@
 # React + Vite News Explorer App
 
-Link to GitHub pages: https://tiagiron.github.io/news-explorer-frontend/
+Link to GitHub pages: https://guilhermegalvaosilva.github.io/news-explorer-frontend/
 
 ## Overview
 
