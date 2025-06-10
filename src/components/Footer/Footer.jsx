@@ -31,7 +31,7 @@ function Footer({}) {
             </a>
           </li>
           <li className="footer__icon">
-            <a href="in/guilherme-galvão-a43307177" target="_blank">
+            <a href="www.linkedin.com/in/guilherme-silva-a43307177" target="_blank">
               <img
                 className="footer__linkedin"
                 src={linkedin}
