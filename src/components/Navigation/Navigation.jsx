@@ -22,7 +22,9 @@ function Navigation({ openLoginModal, isLoggedIn, handleLogout }) {
   return (
     <nav className={`nav ${isOpen ? "is-open" : ""}`}>
       <button
-        className={`nav__icon-menu ${isOpen ? `is-active` : ""} ${isSavedNewsPage ? "nav__icon-menu-saved" : ""}`}
+        className={`nav__icon-menu ${isOpen ? `is-active` : ""} ${
+          isSavedNewsPage ? "nav__icon-menu-saved" : ""
+        }`}
         type="button"
         onClick={toggleMobileMenu}
       >
@@ -33,13 +35,17 @@ function Navigation({ openLoginModal, isLoggedIn, handleLogout }) {
       <div className={`nav__content ${isOpen ? `is-open` : ""} `}>
         <Link
           to="/"
-          className={`nav__home-link ${isOpen ? `is-open` : ""} ${location.pathname === "/" ? "nav__home-link-home" : ""}`}
+          className={`nav__home-link ${isOpen ? `is-open` : ""} ${
+            location.pathname === "/" ? "nav__home-link-home" : ""
+          }`}
         >
           <p className="nav__home">NewsExplorer</p>
         </Link>
         <Link
           to="/"
-          className={`nav__home-link ${isOpen ? `is-open` : ""} ${location.pathname === "/" ? "nav__home-link-home" : ""}`}
+          className={`nav__home-link ${isOpen ? `is-open` : ""} ${
+            location.pathname === "/" ? "nav__home-link-home" : ""
+          }`}
           onClick={onClose}
         >
           Home
@@ -49,20 +55,26 @@ function Navigation({ openLoginModal, isLoggedIn, handleLogout }) {
           <>
             <Link
               to="/saved-news"
-              className={`nav__articles ${isOpen ? `is-open` : ""} ${isSavedNewsPage ? "nav__articles-saved" : "nav__articles-home"}`}
+              className={`nav__articles ${isOpen ? `is-open` : ""} ${
+                isSavedNewsPage ? "nav__articles-saved" : "nav__articles-home"
+              }`}
               onClick={onClose}
             >
               Saved Articles
             </Link>
             <button
               type="button"
-              className={`nav__logout ${isOpen ? `is-open` : ""} ${isSavedNewsPage ? "nav__logout-saved" : "nav__logout-home"}`}
+              className={`nav__logout ${isOpen ? `is-open` : ""} ${
+                isSavedNewsPage ? "nav__logout-saved" : "nav__logout-home"
+              }`}
               onClick={handleLogout}
             >
-              {currentUser?.name || "Tia"}
+              {currentUser?.name || "Gui"}
               <img
                 src={isSavedNewsPage ? logoutblack : logoutwhite}
-                className={`nav__logout-icon ${isOpen ? `is-open` : ""} ${isSavedNewsPage ? "nav__logout-icon-saved" : ""}`}
+                className={`nav__logout-icon ${isOpen ? `is-open` : ""} ${
+                  isSavedNewsPage ? "nav__logout-icon-saved" : ""
+                }`}
                 alt="Logout"
               />
             </button>
