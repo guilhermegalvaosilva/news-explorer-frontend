@@ -1,11 +1,11 @@
 import "./About.css";
-import author from "../../assets/Mypic.jpeg";
+import author from "../../assets/IMG_4127.jpeg";
 
 function About({}) {
   return (
     <section className="about">
       <div className="about__content">
-        <img className="about__img" src={author} alt="Tia Giron" />
+        <img className="about__img" src={author} alt="Guilherme" />
         <div className="about__author">
           <h2 className="about__title">About the author</h2>
           <p className="about__description">
