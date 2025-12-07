@@ -9,11 +9,15 @@ function Header({ openLoginModal, isLoggedIn, handleLogout }) {
   return (
     <div className="header__container">
       <header
-        className={`header ${location.pathname === "/saved-news" ? "header--saved" : ""}`}
+        className={`header ${
+          location.pathname === "/saved-news" ? "header--saved" : ""
+        }`}
       >
         <Link
           to="/"
-          className={`header__title-link ${location.pathname === "/" ? "header__title-link-home" : ""}`}
+          className={`header__title-link ${
+            location.pathname === "/" ? "header__title-link-home" : ""
+          }`}
         >
           <p className="header__title">NewsExplorer</p>
         </Link>

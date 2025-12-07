@@ -7,7 +7,7 @@ export { CurrentUserContext };
 
 const CurrentUserProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState({
-    name: "Tia",
+    name: " Guilherme",
     savedArticles: initialSavedArticles,
   });
 

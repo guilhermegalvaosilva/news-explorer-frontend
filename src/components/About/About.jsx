@@ -9,40 +9,38 @@ function About({}) {
         <div className="about__author">
           <h2 className="about__title">About the author</h2>
           <p className="about__description">
-            Sou o Guilherme Galvão, desenvolvedor web com uma forte base em
-            JavaScript, React, Node.js, Express e MongoDB, formado pelo programa
-            de Desenvolvimento Web Full Stack da TripleTen. Ao longo do meu
-            percurso, desenvolvi aplicações completas, seguindo boas práticas de
-            engenharia de software, metodologias ágeis e integração de sistemas.
-            Tenho experiência na criação de interfaces responsivas,
-            desenvolvimento backend estruturado e utilização de APIs REST,
-            sempre com foco na qualidade, escalabilidade e organização do
-            código.
+            I'm Guilherme Galvão, a web developer with a strong background in
+            JavaScript, React, Node.js, Express and MongoDB, graduated from
+            TripleTen's Full Stack Web Development program. Throughout my
+            journey, I have built end-to-end applications following software
+            engineering best practices, agile methodologies and systems
+            integration. I have experience creating responsive interfaces,
+            structured backend development and working with REST APIs, always
+            focusing on code quality, scalability and organization.
           </p>
           <p className="about__description">
-            A minha paixão por tecnologia começou cedo, quando estudei robótica,
-            e evoluiu para um interesse profundo por sistemas inteligentes e
-            construção de soluções digitais. Hoje, estou a consolidar esse
-            caminho através de formação contínua e projetos práticos, incluindo
-            a minha atual graduação em Ciências da Computação.
+            My passion for technology began early when I studied robotics, and
+            it has grown into a deep interest in intelligent systems and
+            building digital solutions. Today, I am consolidating this path
+            through continuous learning and practical projects, including my
+            current degree in Computer Science.
           </p>
           <p className="about__description">
-            Profissionalmente, a minha experiência em empresas como OGMA –
-            Indústria Aeronáutica, Lidl, Worten e AWA mostrou-me o valor da
-            precisão, da análise de dados, da integração de processos e do
-            trabalho em equipa. Atuei em ambientes exigentes, lidando com
-            sistemas internos, ERP, coordenação operacional e suporte técnico —
-            competências que hoje enriquecem a forma como desenvolvo software e
-            resolvo problemas.
+            Professionally, my experience at companies such as OGMA – Indústria
+            Aeronáutica, Lidl, Worten and AWA has shown me the value of
+            precision, data analysis, process integration and teamwork. I have
+            worked in demanding environments dealing with internal systems, ERP,
+            operational coordination and technical support — skills that now
+            enrich how I develop software and solve problems.
           </p>
           <p className="about__description">
-            Sou movido por desafios, aprendizagem constante e pela oportunidade
-            de criar soluções que façam a diferença. Gosto especialmente de
-            trabalhar em ambientes colaborativos, onde posso contribuir tanto
-            tecnicamente quanto na melhoria contínua de processos. Atualmente, o
-            meu foco é iniciar a minha jornada profissional como desenvolvedor
-            web, aplicando as minhas habilidades para construir produtos
-            digitais eficientes, intuitivos e com impacto real.
+            I am driven by challenges, continuous learning and the opportunity
+            to create solutions that make a difference. I especially enjoy
+            working in collaborative environments where I can contribute both
+            technically and to the continuous improvement of processes.
+            Currently, my focus is to begin my professional journey as a web
+            developer, applying my skills to build efficient, intuitive digital
+            products with real impact.
           </p>
         </div>
       </div>
